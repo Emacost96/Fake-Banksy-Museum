@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Scopri di più</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="overlay"></div>
+    <nav>
+        <a href="index.html">HOME</a>
+    </nav>
+    <main>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Compila il form per saperne di più</legend>
+                <label for="nome">Nome <br><input id="nome" type="text" name="nome"  required></label> 
+                <label for="cognome">Cognome <br><input id="cognome" type="text" name="cognome"  required></label>
+                <label for="email">Email <br><input id="email" type="email" name="email" "></label>
+                <textarea name="domanda" id="domanda" cols="5" rows="5" placeholder="scrivi qui la tua domanda..."></textarea>
+                <input type="checkbox" name="condizioni" id="condizioni" required><label class="conditions" for="condizioni">Accetto le condizioni della privacy</label>
+                <input type="submit" name="submit" id="submit">
+             </fieldset>
+        </form>
+    </main>
+
+</body>
+</html>
